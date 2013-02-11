@@ -51,7 +51,7 @@ def site(region):
     status = lm.getStatuses(region)
     trans = make_translator(lang[selected_lang], lang['en'])
 
-    title = 'OmNom{0}!'.format(region.title())
+    title = 'MGo{0}!'.format(region.title())
 
     info = gen_info(region)
     info['title'] = title
