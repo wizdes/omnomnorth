@@ -16,7 +16,7 @@
 
 		<div id="header" class="sixteen columns">
 			<h1>MGoNom.com</h1>
-			<h2>Answering the question "What's still open on North Campus?" for {{ info.days }} days.</h2>
+			<h2>Answering the question "What's still open in Ann Arbor?" for {{ info.days }} days.</h2>
 			{% for region in info['regions'] %}
 			<a href="{{ region }}">{{ translate(region) }}</a>
 				{% if not loop.last %} | {% endif %}
